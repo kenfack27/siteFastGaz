@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/site-fast-gaz",
+            "outputPath": "www",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -101,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ea717ba7-6e05-4986-b38c-2aeff7d654cd"
   }
 }
